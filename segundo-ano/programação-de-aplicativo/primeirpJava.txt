@@ -1,0 +1,33 @@
+import java.util.Scanner;
+
+public class App {
+    //criar metodo principal
+    public static void main(String[] args) {
+
+        
+        Scanner tecla = new Scanner(System.in);
+
+        System.out.println("Informe o seu nome: ");
+        String name = tecla.nextLine();
+        System.out.println("Informe o seu nome: ");
+        int age = tecla.nextInt();
+        System.out.println("Informe o seu nome: ");
+        Double valer = tecla.nextDouble();
+
+
+    }
+    static void teste1(){
+
+        //criando um objeto string(variavel)
+        //String nome = "João";
+        //int idade = 31;
+        //double valor = 13.56;
+        //mostrar na tela
+        //System.out.println("Nome " +nome);
+        //System.out.println("Idade " +idade);
+        //System.out.println("Casado " +valor);
+        
+
+    }
+    
+}
